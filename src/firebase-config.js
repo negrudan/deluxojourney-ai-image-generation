@@ -6,18 +6,15 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-import dotenv from "dotenv";
-
-dotenv.config();
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
-  authDomain: process.env.AUTH_DOMAIN,
-  projectId: process.env.PROJECT_ID,
-  storageBucket: process.env.STORAGE_BUCKET,
-  messagingSenderId: process.env.MESSAGING_SENDER_ID,
-  appId: process.env.APP_ID,
+  apiKey: "AIzaSyBne4ECIfuv2Exz2XSDzplds7HwjjSegxg",
+  authDomain: "deluxojourney.firebaseapp.com",
+  projectId: "deluxojourney",
+  storageBucket: "deluxojourney.appspot.com",
+  messagingSenderId: "924185484023",
+  appId: "1:924185484023:web:854550ec30ad72d46d11f2",
 };
 
 // Initialize Firebase
