@@ -1,7 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <header>
+      <h3>Deluxojourney</h3>
+
+      <div className="menu">
+        <Link className="link" to="/">
+          Home
+        </Link>
+        <Link className="link" to={"/login"}>
+          Login
+        </Link>
+      </div>
+    </header>
+  );
 };
 
 export default Navbar;
