@@ -9,12 +9,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBne4ECIfuv2Exz2XSDzplds7HwjjSegxg",
-  authDomain: "deluxojourney.firebaseapp.com",
-  projectId: "deluxojourney",
-  storageBucket: "deluxojourney.appspot.com",
-  messagingSenderId: "924185484023",
-  appId: "1:924185484023:web:854550ec30ad72d46d11f2",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
