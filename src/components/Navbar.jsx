@@ -25,7 +25,7 @@ const Navbar = () => {
         </Link>
         {user && (
           <Link className="link" to={"/generate"}>
-            Generate
+            Create
           </Link>
         )}
         {user ? (
