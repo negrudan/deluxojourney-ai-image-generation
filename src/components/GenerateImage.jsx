@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ShareIcon from "@mui/icons-material/Share";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
-// import { CircularIndeterminate } from "../loadanimation";
 import { LoadingAnimation } from "./LoadingAnimation";
 import { Auth, db, storage, API_TOKEN } from "../firebase-config";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
@@ -80,10 +79,10 @@ const ImageGenerationForm = () => {
   return (
     <div className="imageGen">
       <div>
-        <h1 className="font-extrabold text-[#222328] text-[32px]">
-          Prompt Your Creativity!
+        <h1 className="font-extrabold text-[#d2d2d2] text-[32px]">
+          Prompt Your <span className="text-cyan-400">Creativity!</span>
         </h1>
-        <p className="mt-2 text-[#666e75] text-[14px] max-w-[500px]">
+        <p className="mt-2 text-[#d8d8d8] text-[14px] max-w-[500px]">
           Browse and create visually stunning images generated through the help
           of Stable Diffusion (using the openjourney model)!
         </p>
@@ -99,7 +98,7 @@ const ImageGenerationForm = () => {
         </button>
       </form>
       {loading && (
-        <div className="loading">
+        <div className="loading flex justify-center items-center">
           <LoadingAnimation />
         </div>
       )}
@@ -107,11 +106,11 @@ const ImageGenerationForm = () => {
         <div className="result-image">
           <img src={output} alt="art" />
           <div className="action">
-            <button onClick={handleDownload}>
+            <button onClick={handleDownload} className="hover:bg-[#04acfa]">
               <FileDownloadIcon />
             </button>
             {user && (
-              <button onClick={uploadImage}>
+              <button onClick={uploadImage} className="hover:bg-[#04acfa]">
                 <ShareIcon />
               </button>
             )}

@@ -16,8 +16,8 @@ const Navbar = () => {
   };
 
   return (
-    <header>
-      <h3>Deluxojourney</h3>
+    <header className="bg-[#191624] font-medium">
+      <h3 className="text-[#d2d2d2] hover:text-cyan-400">Deluxojourney</h3>
 
       <div className="menu">
         <Link className="link" to="/">
