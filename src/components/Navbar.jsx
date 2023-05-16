@@ -25,7 +25,15 @@ const Navbar = () => {
         </Link>
         {user && (
           <Link className="link" to={"/generate"}>
+<<<<<<< HEAD
+<<<<<<< HEAD
             Create
+=======
+            Generate
+>>>>>>> 9716764 (Implement login and google authentication)
+=======
+            Create
+>>>>>>> 96cefe6 (Implement generate image and save image to database)
           </Link>
         )}
         {user ? (
