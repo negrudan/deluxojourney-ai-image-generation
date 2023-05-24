@@ -83,8 +83,8 @@ const ImageGenerationForm = () => {
           Prompt Your <span className="text-cyan-400">Creativity!</span>
         </h1>
         <p className="mt-2 text-[#d8d8d8] text-[14px] max-w-[500px]">
-          Browse and create visually stunning images generated through the help
-          of Stable Diffusion (using the openjourney model)!
+          Create visually stunning images generated through Stable Diffusion
+          (making use of the openjourney model)!
         </p>
       </div>
       <form className="generate-form mt-2" onSubmit={handleSubmit}>

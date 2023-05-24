@@ -47,12 +47,12 @@ const Home = () => {
           The Community <span className="text-cyan-400">Showcase</span>
         </h1>
         <p className="mt-2 text-[#d8d8d8] text-[14px] max-w-[500px]">
-          Browse and create visually stunning images generated through the help
-          of Stable Diffusion (using the openjourney model)!
+          Browse and create visually stunning images generated through Stable
+          Diffusion (making use of the openjourney model)!
         </p>
       </div>
 
-      <div className="mt-16">
+      <div className="mt-10">
         <FormField
           labelName="Search posts"
           type="text"

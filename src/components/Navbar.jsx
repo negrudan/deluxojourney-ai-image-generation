@@ -17,7 +17,14 @@ const Navbar = () => {
 
   return (
     <header className="bg-[#191624] font-medium">
-      <h3 className="text-[#d2d2d2] hover:text-cyan-400">Deluxojourney</h3>
+      <Link className="link text-[#d2d2d2] hover:text-cyan-400" to="/">
+        <img
+          src={require("../images/logo/deluxojourney2.png")}
+          alt="phoenix jewelry logo"
+          className="logo-image"
+        />
+        <h3 className="brand-name">DeluxoJourney</h3>
+      </Link>
 
       <div className="menu">
         <Link className="link" to="/">

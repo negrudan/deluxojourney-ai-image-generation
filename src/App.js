@@ -4,6 +4,7 @@ import ImageGenerationForm from "./components/GenerateImage";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             </Routes>
           </div>
         </main>
+        <Footer />
       </BrowserRouter>
     </div>
   );
